@@ -1,0 +1,31 @@
+{
+  "interface": {
+    "displayName": "wits",
+    "shortDescription": "Your thoughts, within reach",
+    "longDescription": "Connect your wits account to find captured thoughts, save and revise notes, organize folders, manage checklists, and plan reminders. Every result links back to the wits app, where you can see and edit it yourself. Locked notes stay private and shared items keep their existing permissions.",
+    "category": "Productivity",
+    "websiteURL": "https://witsnotes.com",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "composerIcon": "./assets/icon.png",
+    "composerIconDark": "./assets/icon-dark.png",
+    "defaultPrompt": [
+      "Find the thought I captured about my next project.",
+      "Save this as a note in wits.",
+      "What's on my wits agenda this week?"
+    ],
+    "developerName": "wits"
+  },
+  "name": "wits",
+  "version": "0.2.1",
+  "description": "Find your thoughts and manage wits notes, lists, folders, and reminders from ChatGPT.",
+  "author": {
+    "name": "wits",
+    "email": "hi@witsnotes.com",
+    "url": "https://witsnotes.com"
+  },
+  "keywords": [],
+  "skills": "./skills",
+  "mcpServers": "./mcp.json",
+  "homepage": "https://witsnotes.com"
+}

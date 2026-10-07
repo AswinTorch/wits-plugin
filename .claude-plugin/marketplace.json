@@ -1,0 +1,18 @@
+{
+  "name": "witsnotes",
+  "owner": {
+    "name": "wits",
+    "email": "hi@witsnotes.com",
+    "url": "https://witsnotes.com"
+  },
+  "description": "The official wits plugin for Claude Code, claude.ai, and Cowork.",
+  "plugins": [
+    {
+      "name": "wits",
+      "source": "./plugins/wits",
+      "description": "Save, find, and organize your wits notes, lists, and reminders from a conversation.",
+      "category": "productivity",
+      "homepage": "https://witsnotes.com"
+    }
+  ]
+}
