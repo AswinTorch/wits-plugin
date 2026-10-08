@@ -2,7 +2,7 @@
   "mcpServers": {
     "wits": {
       "type": "http",
-      "url": "https://wits-plugin.vercel.app/mcp"
+      "url": "https://mcp.witsnotes.com/mcp"
     }
   }
 }

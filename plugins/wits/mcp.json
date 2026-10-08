@@ -3,7 +3,7 @@
   "mcpServers": {
     "wits": {
       "type": "streamable-http",
-      "url": "https://wits-plugin.vercel.app/mcp"
+      "url": "https://mcp.witsnotes.com/mcp"
     }
   }
 }

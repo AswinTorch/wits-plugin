@@ -23,7 +23,7 @@ reminder. Shared lists keep their existing members and permissions.
 
 The plugin sends the requests Claude makes on your behalf, such as a search
 query or the text of a new note, to your wits account through
-`wits-plugin.vercel.app`. Claude sees only the items it searches for or opens.
+`mcp.witsnotes.com`. Claude sees only the items it searches for or opens.
 Locked notes are never available to this connection. Besides the items you ask
 it to save, wits keeps only what the connection needs to work: the connection
 itself and short-lived receipts that stop a retried save from being stored
