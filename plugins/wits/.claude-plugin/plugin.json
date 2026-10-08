@@ -1,7 +1,7 @@
 {
   "name": "wits",
   "displayName": "wits",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Save, find, and organize your wits notes, lists, and reminders from a conversation with Claude.",
   "author": {
     "name": "wits",
@@ -9,6 +9,7 @@
     "url": "https://witsnotes.com"
   },
   "homepage": "https://witsnotes.com",
+  "privacyPolicyUrl": "https://witsnotes.com/privacy",
   "license": "MIT",
   "keywords": ["notes", "reminders", "lists", "productivity", "voice"]
 }
