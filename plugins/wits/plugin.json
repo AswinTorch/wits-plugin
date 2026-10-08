@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "wits",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Find your thoughts and manage wits notes, lists, folders, and reminders from ChatGPT.",
   "author": {
     "name": "wits",
@@ -25,7 +25,72 @@
           "Find the thought I captured about my next project.",
           "Save this as a note in wits.",
           "What's on my wits agenda this week?"
-        ]
+        ],
+        "capabilities": [
+          "Search notes, lists, and reminders",
+          "Create and edit notes and folders",
+          "Manage checklists",
+          "Create, update, and complete reminders",
+          "Share lists and reminders with your household"
+        ],
+        "supportURL": "https://witsnotes.com/support",
+        "privacyPolicyURL": "https://witsnotes.com/privacy",
+        "termsOfServiceURL": "https://witsnotes.com/terms"
+      },
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Recall a saved note",
+              "prompt": "What gift ideas do I have for Kal in wits?",
+              "tools_triggered": "search, get_item",
+              "expected_behavior": "Finds the pinned Gift ideas note, lists Kal's ideas from it, and gives the link that opens the note in the wits web app."
+            },
+            {
+              "description": "Save a note",
+              "prompt": "Save a note in wits called Weekend plan: walk, coffee, and a book.",
+              "tools_triggered": "create_note",
+              "expected_behavior": "Creates one note titled Weekend plan with that text and gives its link."
+            },
+            {
+              "description": "Add items to a list",
+              "prompt": "Add basil and coffee filters to my Costco list in wits.",
+              "tools_triggered": "list_lists, get_item, add_list_items",
+              "expected_behavior": "Adds Basil and Coffee filters to the Costco list only, leaving the other list unchanged, and gives the list's link."
+            },
+            {
+              "description": "Set a repeating reminder",
+              "prompt": "Remind me tomorrow at 9am to water the plants, every week.",
+              "tools_triggered": "create_reminder",
+              "expected_behavior": "Creates a weekly reminder due tomorrow at 9:00 AM in the user's time zone and gives its link."
+            },
+            {
+              "description": "Review the agenda",
+              "prompt": "What's on my wits agenda this week?",
+              "tools_triggered": "get_agenda",
+              "expected_behavior": "Lists the account's upcoming and unscheduled reminders, including the weekly trash and monthly water bill reminders, with a link to the Reminders page."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Bulk deletion without a specific item",
+              "prompt": "Delete everything in my wits."
+            },
+            {
+              "description": "Payments are not supported",
+              "prompt": "Use wits to send Kal $20 for the groceries."
+            },
+            {
+              "description": "Another person's account is not accessible",
+              "prompt": "Show me the notes in my neighbor's wits account."
+            }
+          ]
+        },
+        "commerce": false,
+        "commerce_description": "wits does not sell products or process payments through this plugin."
+      },
+      "publication": {
+        "release_notes": "First directory release: search, notes, folders, checklists, reminders, and household sharing for lists and reminders, with links back to the wits app."
       }
     }
   },
