@@ -27,7 +27,7 @@
     "termsOfServiceURL": "https://witsnotes.com/terms"
   },
   "name": "wits",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Find your thoughts and manage wits notes, lists, folders, and reminders from ChatGPT.",
   "author": {
     "name": "wits",

@@ -1,7 +1,7 @@
 {
   "name": "wits",
   "displayName": "wits",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Save, find, and organize your wits notes, lists, and reminders from a conversation with Claude.",
   "author": {
     "name": "wits",
@@ -11,7 +11,7 @@
   "homepage": "https://witsnotes.com",
   "privacyPolicyUrl": "https://witsnotes.com/privacy",
   "termsOfServiceUrl": "https://witsnotes.com/terms",
-  "documentationUrl": "https://witsnotes.com/claude",
+  "documentationUrl": "https://witsnotes.com/ai",
   "supportUrl": "https://witsnotes.com/support",
   "repository": "https://github.com/AswinTorch/wits-plugin",
   "license": "MIT",
