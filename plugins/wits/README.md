@@ -1,14 +1,15 @@
 # wits
 
 wits is a voice-first app for notes, lists, and reminders. This plugin connects
-your wits account to Claude, so you can save and find the same notes, lists,
-and reminders you capture on your iPhone, Apple Watch, or the web.
+your wits account to your AI assistant, so you can save and find the same
+notes, lists, and reminders you capture on your iPhone, Apple Watch, or the
+web.
 
 ## Use it
 
 Install the plugin, then connect the wits connector and sign in with your wits
-account. You choose whether Claude can only read your library or can also make
-changes. Then ask things like:
+account. You choose whether the assistant can only read your library or can
+also make changes. Then ask things like:
 
 - "Save this packing list to wits."
 - "Remind me to call the dentist Thursday at 3pm."
@@ -21,9 +22,10 @@ reminder. Shared lists keep their existing members and permissions.
 
 ## Data
 
-The plugin sends the requests Claude makes on your behalf, such as a search
+The plugin sends the requests your assistant makes on your behalf, such as a search
 query or the text of a new note, to your wits account through
-`mcp.witsnotes.com`. Claude sees only the items it searches for or opens.
+`mcp.witsnotes.com`. The assistant sees only the items it searches for or
+opens.
 Locked notes are never available to this connection. Besides the items you ask
 it to save, wits keeps only what the connection needs to work: the connection
 itself and short-lived receipts that stop a retried save from being stored

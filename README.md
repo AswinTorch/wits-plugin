@@ -1,7 +1,7 @@
 # wits plugin
 
-Connect your [wits](https://witsnotes.com) account to Claude, Codex, or
-ChatGPT. Save, find, and organize the same notes, lists, and reminders you
+Connect your [wits](https://witsnotes.com) account to your AI assistant:
+Claude, ChatGPT, Codex, Cursor, Grok Bot, or any app that supports MCP. Save, find, and organize the same notes, lists, and reminders you
 capture on your iPhone, Apple Watch, or the web. Every result links back to
 the wits app, where you can see and edit it yourself.
 
@@ -34,6 +34,17 @@ codex plugin add wits@witsnotes
 
 Or open `/plugins` in Codex and install **wits** there. In the ChatGPT
 desktop app, find it under **Plugins**.
+
+**Cursor and Grok Bot**
+
+Add the server as a connector: `https://mcp.witsnotes.com/mcp`. Sign in when
+asked. This repository also carries a Cursor marketplace file
+(`.cursor-plugin/marketplace.json`) for the plugin under `plugins/wits`.
+
+**Any other assistant**
+
+Any app that supports remote MCP servers with OAuth can connect to
+`https://mcp.witsnotes.com/mcp`. See https://witsnotes.com/ai for steps.
 
 ## Updates
 

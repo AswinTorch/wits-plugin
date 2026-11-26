@@ -1,0 +1,17 @@
+{
+  "name": "wits",
+  "displayName": "wits",
+  "version": "0.2.7",
+  "description": "Save, find, and organize your wits notes, lists, folders, and reminders from a conversation.",
+  "author": {
+    "name": "wits",
+    "email": "hi@witsnotes.com",
+    "url": "https://witsnotes.com"
+  },
+  "homepage": "https://witsnotes.com",
+  "repository": "https://github.com/AswinTorch/wits-plugin",
+  "license": "MIT",
+  "keywords": ["notes", "reminders", "lists", "productivity", "voice"],
+  "logo": "assets/logo.png",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "wits",
-  "version": "0.2.6",
-  "description": "Find your thoughts and manage wits notes, lists, folders, and reminders from ChatGPT.",
+  "version": "0.2.7",
+  "description": "Save, find, and organize your wits notes, lists, folders, and reminders from a conversation.",
   "author": {
     "name": "wits",
     "email": "hi@witsnotes.com",
